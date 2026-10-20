@@ -1,0 +1,124 @@
+/* div {
+background-color: #234;
+}
+div:hover {
+background-color: rgb(226, 245, 88);
+}
+div p {
+color: #899;
+font-size: 1.2rem;
+} */
+
+div {
+  background-color: #234;
+
+  &:hover {
+    background-color: rgb(226, 245, 88);
+  }
+  p {
+    color: #899;
+    font-size: 1.2rem;
+  }
+}
+
+/* nav {
+background-color: #263238;
+padding: 1rem;
+}
+nav ul {
+display: flex;
+gap: 2rem;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+nav li {
+border-right: 1px solid #607d8b;
+padding-right: 2rem;
+}
+nav a {
+color: white;
+text-decoration: none;
+}
+nav a:hover {
+color: #80deea;
+} */
+
+nav {
+  background-color: #263238;
+  padding: 1rem;
+
+  ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    border-right: 1px solid #607d8b;
+    padding-right: 2rem;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      color: #80deea;
+    }
+  }
+}
+
+/* .product-card {
+max-width: 350px;
+padding: 1.5rem;
+background: #f5f5f5;
+border: 1px solid #ccc;
+border-radius: 10px;
+}
+.product-card h2 {
+font-size: 1.5rem;
+margin-bottom: 0.5rem;
+}
+.product-card .price {
+color: #206040;
+font-weight: bold;
+}
+.product-card button {
+padding: 0.7rem 1.2rem;
+background: #263238;
+color: white;
+border: none;
+cursor: pointer;
+}
+.product-card button:hover {
+background: #455a64;
+} */
+
+.product-card {
+  max-width: 350px;
+  padding: 1.5rem;
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .price {
+    color: #206040;
+    font-weight: bold;
+  }
+  button {
+    padding: 0.7rem 1.2rem;
+    background: #263238;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background: #455a64;
+    }
+  }
+}

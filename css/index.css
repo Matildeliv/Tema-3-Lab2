@@ -1,0 +1,18 @@
+section {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+}
+
+body {
+  background-color: rgb(63, 198, 184);
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a:hover {
+  color: chartreuse;
+}
