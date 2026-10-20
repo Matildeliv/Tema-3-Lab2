@@ -1,6 +1,19 @@
-div {
+/* div {
   height: 300px;
   width: 300px;
+} det jeg startede med inden Keld undervisning*/
+
+div {
+  border: 1px solid red;
+  width: 100%;
+  aspect-ratio: 1/1.5;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  align-items: start;
 }
 
 .img-1 img {
