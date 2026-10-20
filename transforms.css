@@ -37,4 +37,6 @@ div {
   width: 300px;
   object-fit: contain;
   border: solid red;
+  width: 100%;
+  transform: translateX(calc(100% + 2px));
 }
